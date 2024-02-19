@@ -38,7 +38,7 @@ This project is open-source under the MIT License.
 
 Using HTTPS git clone : https://github.com/Alaeddine17/tolina.git
 
-# portfolio preview
+# Tolina preview
 
 ![git-rest-1](https://github.com/Alaeddine17/Tolina/assets/71473009/89f88255-6274-4b99-8423-61237e0dabc8)
 ![git-rest-2](https://github.com/Alaeddine17/Tolina/assets/71473009/fa7db1cc-fade-4298-9ae9-a155ae4e48c5)
