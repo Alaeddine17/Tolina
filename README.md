@@ -1,4 +1,4 @@
-### Tolina
+# Tolina
 platform for reservations, meal orders, and restaurant management systems.
 Tolina Platform your all-in-one solution for seamless reservations, convenient meal orders, and efficient restaurant management systems. Tolina Platform revolutionizes the way patrons and restaurant  owners interact, offering a comprehensive suite of tools tailored to enhance the dining experience for all.
 
@@ -12,20 +12,23 @@ For restaurant owners and managers, Tolina Platform provides powerful admin inte
 
 ## Experience the following key features with Tolina's admin interfaces:
 
-# Reservation Management: Efficiently handle incoming reservations, customize seating arrangements, and maintain a comprehensive overview of your restaurant's booking status.
+#### Reservation Management: Efficiently handle incoming reservations, customize seating arrangements, and maintain a comprehensive overview of your restaurant's booking status.
 
-# Order Tracking: Monitor real-time order status, manage kitchen workflows, and ensure timely deliveries with our intuitive order tracking system.
+#### Order Tracking: Monitor real-time order status, manage kitchen workflows, and ensure timely deliveries with our intuitive order tracking system.
 
-# Menu Management: Easily update menus, add seasonal specials, and showcase your culinary offerings to attract and engage your audience.
+#### Menu Management: Easily update menus, add seasonal specials, and showcase your culinary offerings to attract and engage your audience.
+
+# 📱 Mobile Optimized
+This site has been meticulously designed to ensure an optimal viewing experience across devices. For a quick peek into the mobile navigation.
 
 # 🔧 Built With
 
-HTML & CSS: The dynamic duo for crafting visually appealing and responsive web designs.
-PHP: Empowering web development with server-side scripting for dynamic and interactive websites
-tailwindcss: A blazing fast frontend build tool, making the development process a breeze. Tailwind CSS: A utility-first CSS framework for rapidly building modern user interfaces.
-Vanilla JavaScript: Unadorned simplicity for powerful and flexible web development.
-jsPDF: Generate PDFs with ease using JavaScript for versatile document creation.
-EmailJS: Ensures that anyone reaching out through the contact form gets their messages delivered directly to my inbox. (... It is being worked on ...).
-MySQL: A robust and reliable open-source relational database management system for efficient data storage and retrieval
+HTML & CSS: The dynamic duo for crafting visually appealing and responsive web designs.<br>
+PHP: Empowering web development with server-side scripting for dynamic and interactive websites<br>
+tailwindcss: A blazing fast frontend build tool, making the development process a breeze. Tailwind CSS: A utility-first CSS framework for rapidly building modern user interfaces.<br>
+Vanilla JavaScript: Unadorned simplicity for powerful and flexible web development.<br>
+jsPDF: Generate PDFs with ease using JavaScript for versatile document creation.<br>
+EmailJS: Ensures that anyone reaching out through the contact form gets their messages delivered directly to my inbox. (... It is being worked on ...).<br>
+MySQL: A robust and reliable open-source relational database management system for efficient data storage and retrieval<br>
 
 
