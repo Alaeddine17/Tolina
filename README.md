@@ -34,9 +34,9 @@ MySQL: A robust and reliable open-source relational database management system f
 # 📜 License
 This project is open-source under the MIT License.
 
-# 🛠️ Local Setup You can set up this project locally by following these steps:
+# 🛠️ Local Setup You can set up this project locally by:
 
-Using HTTPS git clone : https://github.com/Alaeddine17/tolina.git
+Using HTTPS git clone https://github.com/Alaeddine17/tolina.git
 
 # Tolina preview
 
