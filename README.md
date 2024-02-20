@@ -40,7 +40,7 @@ Using HTTPS git clone https://github.com/Alaeddine17/tolina.git
 
 # Tolina preview
 
-## Public Interfaces
+## Public space
 
 ![git-rest-1](https://github.com/Alaeddine17/Tolina/assets/71473009/89f88255-6274-4b99-8423-61237e0dabc8)
 ![git-rest-2](https://github.com/Alaeddine17/Tolina/assets/71473009/fa7db1cc-fade-4298-9ae9-a155ae4e48c5)
@@ -49,7 +49,7 @@ Using HTTPS git clone https://github.com/Alaeddine17/tolina.git
 ![git-rest-4](https://github.com/Alaeddine17/Tolina/assets/71473009/f06654d6-e6bb-4e31-969d-acef61e7eff2)
 ![git-rest-5](https://github.com/Alaeddine17/Tolina/assets/71473009/cc770cca-5992-421f-b269-43d2fb182e3d)
 
-## Admin Interfaces
+## Admin space
 
 ![git-rest-6](https://github.com/Alaeddine17/Tolina/assets/71473009/f4e4601c-c3b2-49ec-9fa4-d3abd870de14)
 ![git-rest-7](https://github.com/Alaeddine17/Tolina/assets/71473009/06579aa7-9287-4183-b0d8-63dd42018b71)
