@@ -1,0 +1,6 @@
+1 -Hamburger
+2 Sanduiche Americain
+3 Sanduiche Turkey
+4 Tacos
+5 sandwich croustillant
+6 Tacos Mexicains

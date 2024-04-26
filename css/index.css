@@ -1,0 +1,9 @@
+#propos{
+    background-image: url("../assets/images/backR.jpg");
+    background-position: center;
+    padding: 20px;
+}
+
+.ImgMrg{
+    margin-top: -30px;
+}

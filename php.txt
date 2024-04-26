@@ -1,0 +1,49 @@
+<table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 max-h-72">
+        <thead class="text-slate-600 text-sm uppercase bg-red-200 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3 rounded-s-lg">
+                    Commandes
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    P.U
+                </th>
+                <th scope="col" class="px-6 py-3 rounded-e-lg">
+                    Quantité
+                </th>
+            </tr>
+        </thead>
+        <?php
+                if (!empty($_SESSION["shopping_cart"])) {
+                    $total = 0;
+                    foreach ($_SESSION["shopping_cart"] as $keys => $values) {
+            ?>
+        <tbody>
+            <tr class="bg-white dark:bg-gray-800">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    <?php echo $values['Repas'] ?>
+                </th>
+                <td class="px-6 py-4 text-center">
+                    <?php echo $values['Prix']?> MAD
+                </td>
+                <td class="px-6 py-4 text-center">
+                <?php echo $values['Quantité']?>
+                </td>
+            </tr>
+
+            <?php
+                    $total += $values["Quantité"] * $values["Prix"];
+                    
+                    }
+                } else {
+                    echo "<tr class='text-center w-full text-xl font-bold'><td class='text-center' colspan='3'>No items in the cart</td></tr>";
+                }
+        ?>
+            
+        </tbody>
+        
+        </table>
+      
+        <div class="mt-2 flex items-center justify-between px-10 bg-gray-100 rounded-lg py-2">
+            <span class="font-bold">Total : </span>
+            <span><?php echo number_format($total, 2); ?> MAD</span>
+        </div>

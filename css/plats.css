@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+:root{
+    --red:#ff3838;
+}
+*::selection{
+    background:var(--red);
+}
+
+body{
+    background: #f7f7f7;
+}
+
+h3{
+    font-size: 2rem;
+    color: #333;
+    padding-top: 10px;
+}
+
+.popular{
+    display: inline-block;
+}
+
+.popular .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    
+}
+.popular .box-container .box{
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border:.1rem  solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+    text-align: center;
+    flex:1 1 30rem;
+    position: relative;
+    
+}
+
+.popular .box-container .box img{
+    height: 23rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+.popular .box-container .box .prix{
+    position: absolute;
+    top: 3rem; left: 3rem;
+    background: var(--red);
+    color: #fff;
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+.stars i{
+    color: gold;
+    font-size: 1.7rem;
+    padding: .1rem .1rem;
+}
+
+/*------------Table --------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+.orderTable{
+    padding: 80px 30px;
+    position: relative;
+    top: 80px;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ddd;
+    border: inset 5px white;
+    border-radius: 10px;
+}
+.TableTitle ,font{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 27px;
+}
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.header_fixed {
+    max-height: 100vh;
+    width: 100%;
+    overflow: auto;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+.header_fixed thead th {
+    position: sticky;
+    top: 0;
+    background-color: var(--red);
+    color: #e6e7e8;
+    font-size: 15px;
+}
+
+th,td {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.th{
+    position: sticky;
+    top: 0;
+    background-color: var(--red);
+    color: #e6e7e8;
+    font-size: 15px;
+    border: none;
+    font-size: 2em;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #edeef1;
+}
+
+tr:hover td {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+td button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: var(--red);
+    color: #e6e7e8;
+}
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+/*---------------------------------------------*/
+
+
+
+.btn{
+    display: inline-block;
+    padding: .8rem 3rem;
+    border: .2rem solid var(--red);
+    color: var(--red);
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: 1rem;
+}
+.btn::before{
+    content: '';
+    position: absolute;
+    top: 0;right:0;
+    width: 2%;
+    height: 100%;
+    background: var(--red);
+    transition: .2s linear;
+    z-index: -3;
+}
+
+.btn:hover::before{
+    width: 100%;
+    left: 0;
+}
+
+.btn:hover{
+    color:#fff
+}
+
+.qte{
+    font-size: 1.5em;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    left: 60px;
+    display: flex;
+    padding: .3rem 3rem;
+    border: none;
+    box-shadow: 0px 1px 0px 1px rgba(255, 49, 49, 0.486);
+    outline: none;
+    color: var(--red);
+    margin-top: 1rem;
+    
+}
+
+
+.Table{
+    justify-content: center;
+}

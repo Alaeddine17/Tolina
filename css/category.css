@@ -1,0 +1,10 @@
+.zeeb{
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+
+body{
+    background-image: url('../images/home-bg.jpg');
+    background-position: top cover / no-repeat;
+    background-repeat: no-repeat;
+}
