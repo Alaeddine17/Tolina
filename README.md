@@ -23,13 +23,13 @@ This site has been meticulously designed to ensure an optimal viewing experience
 
 # 🔧 Built With
 
-HTML & CSS: The dynamic duo for crafting visually appealing and responsive web designs.<br>
-PHP: Empowering web development with server-side scripting for dynamic and interactive websites<br>
-tailwindcss: A blazing fast frontend build tool, making the development process a breeze. Tailwind CSS: A utility-first CSS framework for rapidly building modern user interfaces.<br>
-Vanilla JavaScript: Unadorned simplicity for powerful and flexible web development.<br>
-jsPDF: Generate PDFs with ease using JavaScript for versatile document creation.<br>
-EmailJS: Ensures that anyone reaching out through the contact form gets their messages delivered directly to my inbox. (... It is being worked on ...).<br>
-MySQL: A robust and reliable open-source relational database management system for efficient data storage and retrieval<br>
+-HTML & CSS: The dynamic duo for crafting visually appealing and responsive web designs.<br>
+-PHP: Empowering web development with server-side scripting for dynamic and interactive websites<br>
+-TailwindCss: A blazing fast frontend build tool, making the development process a breeze. Tailwind CSS: A utility-first CSS framework for rapidly building modern user interfaces.<br>
+-Vanilla JavaScript: Unadorned simplicity for powerful and flexible web development.<br>
+-jsPDF: Generate PDFs with ease using  JavaScript for versatile document creation.<br>
+-EmailJS: Ensures that anyone reaching out through the contact form gets their messages delivered directly to my inbox. (... It is being worked on ...).<br>
+-MySQL: A robust and reliable open-source relational database management system for efficient data storage and retrieval<br>
 
 # 📜 License
 This project is open-source under the MIT License.
